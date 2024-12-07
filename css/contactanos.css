@@ -1,0 +1,272 @@
+*{
+    font-family: montserrat;
+}
+body{
+    margin: 0;
+    justify-content: center;
+    align-content: center;
+}
+header{
+    .rayatop{
+        text-align: center;
+        justify-content: center;
+        background-color: #0e22cf;
+        position: absolute;
+        width: 100%;
+        height: 30px;
+        p{
+            color: white;
+            font-size: 15px;
+            position: relative;
+            top: -10px;
+            letter-spacing: 10px;
+        }
+    }
+    background-color: #0583dd;
+    height: 100px;
+    width: 100%;
+    .logoheader{
+        width: 80px;
+        position: relative;
+        top: 35px;
+        left: 30px;
+    }
+    a{
+        margin: 5px;
+        position: relative;
+        left: 600px;
+        bottom: 5px;
+        font-size: 18px;
+        text-decoration: none;
+        font-weight: bold;
+        padding-inline: 25px;
+        color: white;
+    }
+    a:hover{
+        color: rgba(255, 255, 255, 0.664);
+    }   
+}
+.contactanos{
+    h1{
+        text-align: center;
+        position: relative;
+        top: 20px;
+        font-size: 45px;
+    }
+    p{
+        text-align: center;
+        position: relative;
+        bottom: 0px;
+        font-size: 20px;
+    }
+}
+.contenedor{
+    position: relative;
+    align-items: center;
+    align-content: center;
+    top: 30px;
+    margin: auto;
+    border-color: #0583dd;
+    background: linear-gradient(45deg, #FC8005, #FF141A);
+    width: 900px;
+    height: 625px;
+    border-radius: 25px;
+    form{
+        display: grid;
+        gap: 80px;
+        position: absolute;
+        top: 20px;
+        .nombre{
+            width: 205px;
+            color: white;
+            position: relative;
+            top: 15px;
+            left: 145px;
+            font-weight: bold;
+        }
+        .nombrecaja{
+            background-color:#0583dd;
+            width: 350px;
+            height: 40px;
+            border-radius: 5px;
+            border:none;
+             position: relative;
+            top: -60px;
+            left: 70px;
+            color: white; 
+        }
+        .nombrecaja::placeholder{
+            color: rgba(21, 2, 51, 0.705);
+            position: relative;
+            left: 5px;
+        }
+        .nombrecaja:focus{
+            background-color: white;
+            color: black;
+        }
+        .correo{
+            width: 60px;
+            color: white;
+            position: relative;
+            bottom: 90px;
+            left: 210px;
+            font-weight: bold;
+        }
+        .correocaja{
+            background-color:#0583dd;
+            width: 350px;
+            height: 40px;
+            border-radius: 5px;
+            border:none;
+             position: relative;
+            bottom: 165px;
+            left: 70px;
+            color: white; 
+        }
+        .correocaja::placeholder{
+            color: rgba(21, 2, 51, 0.705);
+            position: relative;
+            left: 5px;
+        }
+        .correocaja:focus{
+            background-color: white;
+            color: black;
+        }
+        .numero{
+            width: 70px;
+            color: white;
+            position: relative;
+            bottom: 190px;
+            left: 210px;
+            font-weight: bold;
+        }
+        .numerocaja{
+            background-color:#0583dd;
+            width: 350px;
+            height: 40px;
+            border-radius: 5px;
+            border:none;
+             position: relative;
+            bottom: 265px;
+            left: 70px;
+            color: white; 
+        }
+        .numerocaja::placeholder{
+            color: rgba(21, 2, 51, 0.705);
+            position: relative;
+            left: 5px;
+        }
+        .numerocaja:focus{
+            background-color: white;
+            color: black;
+        }
+        .consulta{
+            width: 70px;
+            color: white;
+            position: relative;
+            bottom: 290px;
+            left: 200px;
+            font-weight: bold;
+        }
+        .consultacaja{
+            background-color:#0583dd;
+            width: 350px;
+            height: 150px;
+            border-radius: 5px;
+            border:none;
+             position: relative;
+            bottom: 360px;
+            left: 70px;
+            color: white; 
+        }
+        .consultacaja::placeholder{
+            color: rgba(21, 2, 51, 0.705);
+            position: relative;
+            left: 5px;
+        }
+        .consultacaja:focus{
+            background-color: white;
+            color: black;
+        }
+        #enviar{
+            position: relative;
+            top: -480px;
+            left: 600px;
+            background-color: #0583dd;
+            border: none;
+            border-radius: 5px;
+            color: white;
+            font-size: 17px;
+            font-weight: 500;
+            width: 180px;
+            height: 35px;
+            cursor: pointer;
+        }
+        #enviar:hover{
+            background-color: white;
+            color: black;
+        }
+    }
+    .mapa{
+        border-radius: 10px;
+        height: 450px;
+        width: 350px;
+        position: relative;
+        top: -25px;
+        left: 500px;
+    }
+}
+.contenedor:hover{
+    transition: 5s;
+    background: linear-gradient(45deg, #FF141A, #FC8005);
+} 
+footer{
+    background-color: #0583dd;
+    text-align: center;
+    margin-top: 200px;
+    height: 300px;
+    width: 100%;
+    position: relative;
+    bottom: 0%;
+    img{
+        width: 200px;
+        position: relative;
+        top: 40px;
+    }
+    a{
+        text-align: center;
+        margin: 5px;
+        position: relative;
+        top: 70px;
+        text-decoration: none;
+        font-weight: bold;
+        padding-inline: 25px;
+        color: white;
+    }
+    a:hover{
+        color: rgba(255, 255, 255, 0.664);
+    }
+    .raya{
+        text-align: center;
+        justify-content: center;
+        background-color: #0e22cf;
+        bottom: 0;
+        position: absolute;
+        width: 100%;
+        height: 30px;
+        p{
+            margin: auto;
+            width: 400px;
+            color: white;
+            font-size: 15px;
+            position: relative;
+            top: -17px;
+        }
+        .redes{
+            width: 20px;
+            position: relative;
+            right: -550px;
+            top: 7px;
+        } 
+    }  
+}
